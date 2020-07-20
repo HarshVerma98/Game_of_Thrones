@@ -13,6 +13,10 @@
 		955CA4FA24C46ACB00600814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955CA4F824C46ACB00600814 /* Main.storyboard */; };
 		955CA4FC24C46ACC00600814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955CA4FB24C46ACC00600814 /* Assets.xcassets */; };
 		955CA4FF24C46ACC00600814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955CA4FD24C46ACC00600814 /* LaunchScreen.storyboard */; };
+		955CA50724C470F500600814 /* houseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955CA50624C470F500600814 /* houseInfo.swift */; };
+		955CA50924C4714700600814 /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955CA50824C4714700600814 /* Houses.swift */; };
+		955CA50B24C478EB00600814 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955CA50A24C478EA00600814 /* DetailVC.swift */; };
+		95ED64C124C486A10010A0F7 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ED64C024C486A10010A0F7 /* SplashScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		955CA4FB24C46ACC00600814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		955CA4FE24C46ACC00600814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		955CA50024C46ACC00600814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955CA50624C470F500600814 /* houseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houseInfo.swift; sourceTree = "<group>"; };
+		955CA50824C4714700600814 /* Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
+		955CA50A24C478EA00600814 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		95ED64C024C486A10010A0F7 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				955CA4F224C46ACB00600814 /* AppDelegate.swift */,
 				955CA4F424C46ACB00600814 /* SceneDelegate.swift */,
 				955CA4F624C46ACB00600814 /* ViewController.swift */,
+				955CA50624C470F500600814 /* houseInfo.swift */,
+				955CA50824C4714700600814 /* Houses.swift */,
+				955CA50A24C478EA00600814 /* DetailVC.swift */,
+				95ED64C024C486A10010A0F7 /* SplashScreenViewController.swift */,
 				955CA4F824C46ACB00600814 /* Main.storyboard */,
 				955CA4FB24C46ACC00600814 /* Assets.xcassets */,
 				955CA4FD24C46ACC00600814 /* LaunchScreen.storyboard */,
@@ -140,7 +152,11 @@
 			files = (
 				955CA4F724C46ACB00600814 /* ViewController.swift in Sources */,
 				955CA4F324C46ACB00600814 /* AppDelegate.swift in Sources */,
+				95ED64C124C486A10010A0F7 /* SplashScreenViewController.swift in Sources */,
+				955CA50924C4714700600814 /* Houses.swift in Sources */,
+				955CA50724C470F500600814 /* houseInfo.swift in Sources */,
 				955CA4F524C46ACB00600814 /* SceneDelegate.swift in Sources */,
+				955CA50B24C478EB00600814 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HM3JVVUNFD;
 				INFOPLIST_FILE = GoT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HM3JVVUNFD;
 				INFOPLIST_FILE = GoT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
